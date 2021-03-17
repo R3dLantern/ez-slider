@@ -1,0 +1,28 @@
+*, *:before, *::before, *:after, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.ezs {
+  overflow: hidden;
+  &-core {
+    width: auto;
+    white-space: nowrap;
+    .item {
+      display: inline-block;
+      vertical-align: top;
+      white-space: normal;
+    }
+  }
+}
