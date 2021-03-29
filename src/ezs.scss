@@ -19,10 +19,13 @@ main {
   &-core {
     width: auto;
     white-space: nowrap;
-    .item {
+    .ezs-item {
       display: inline-block;
       vertical-align: top;
       white-space: normal;
     }
+  }
+  [data-ezs-enabled="0"] {
+    display: none;
   }
 }
